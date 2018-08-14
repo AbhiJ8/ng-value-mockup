@@ -1,0 +1,58 @@
+$egreen: #a7d90c;
+
+#main {
+    background-color: white !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.dark {
+    background-color: #2D2E2E;
+    color: white;
+    font-size: 14px;
+}
+
+.dark {
+    th {
+        text-align: center;
+        a{
+            color: white;
+        }
+    }
+    td {
+        text-align: center;
+    }
+}
+
+.rows {
+    th {
+        text-align: center;
+        a{
+            color: $egreen;
+        }
+    }
+    td {
+        text-align: left;
+        padding-bottom: 20px;
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    }
+}
+
+.subtext{
+    font-size: 10px;
+}
+
+#rowTitle{
+    font-size: 14px;
+}
+
+

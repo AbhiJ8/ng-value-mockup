@@ -1,0 +1,316 @@
+<div class="pt-3 pb-3 pr-2 pl-4" id="main">
+
+  <div class="row mt-3">
+    <div class="col-sm-7 mr-5">
+      <div class="row">
+        <div class="col-sm-3 align-self-center">
+          <p>Select preferred currency </p>
+        </div>
+        <div class="col-sm-5 align-self-center">
+          <div class="input-group mb-3">
+            <select class="custom-select" id="inputGroupSelect01">
+              <option value="GBP" selected>British Pound (£)</option>
+              <option value="USD">United States Dollar ($)</option>
+              <option value="EUR">European Euro (€)</option>
+              <option value="ALB">Albanian Lek (L)</option>
+              <option value="ARG">Argentinian Peso ($)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="align-self-center">
+        <button type="button" class="btn btn-outline-success">NEED HELP WITH FINANCIAL PROJECTIONS?</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-4">
+    <div class="col-sm-7 mr-5">
+      <div class="row">
+        <div class="col-sm-3 align-self-center">
+          <p>Valuation Date </p>
+        </div>
+        <div class="col-sm-5 align-self-center">
+            <input type="text" class="form-control" aria-label="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mr-3">
+    <table class="table table-sm">
+      <thead class="dark">
+        <tr>
+          <th scope="col" class="dark"></th>
+          <th scope="col" class="dark">VALUES (£)</th>
+          <th scope="col" class="dark">Past Year
+            <br>7/2017-6/2018</th>
+          <th scope="col" class="dark">FORECASTS >
+            <br>7/2018 - 6/2019</th>
+          <th scope="col" class="dark">7/2019 - 6/2020</th>
+          <th scope="col" class="dark">7/2020 - 6/2021</th>
+          <th scope="col" class="dark plus">
+            <a href="">
+              <i class="fas fa-plus"></i>
+            </a>
+          </th>
+        </tr>
+      </thead>
+      <tbody class="rows">
+        <tr class="table-active mt-2">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">REVENUES*</a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="REVENUESpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="REVENUESf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="REVENUESf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="REVENUESf3"></td>
+        </tr>
+        <tr class="table-active">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">COST OF GOODS SOLD*</a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="COGSpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="COGSf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="COGSf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="COGSf3"></td>
+        </tr>
+        <tr class="table-active">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">SALARIES<br><div class="subtext">INCLUDING CONTRACTOR WAGES</div></a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="SALpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="SALf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="SALf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="SALf3"></td>
+        </tr>
+        <tr class="table-active">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">OTHER OPERATING EXPENSES<br><div class="subtext">SELLING, GENERAL AND ADMINISTRATIVE</div></a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="OOEpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="OOEf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="OOEf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="OOEf3"></td>
+        </tr>
+        <tr class="table-success">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">EBITDA</a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="EBITDApy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="EBITDAf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="EBITDAf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="EBITDAf3"></td>
+        </tr>
+        <tr class="">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">D&A</a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="DnApy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="DnAf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="DnAf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="DnAf3"></td>
+        </tr>
+        <tr class="table-success">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">EBIT</a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="EBITpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="EBITf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="EBITf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="EBITf3"></td>
+        </tr>
+        <tr class="">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">INTEREST</a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="INTEpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="INTEf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="INTEf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="INTEf3"></td>
+        </tr>
+        <tr class="">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">TAXES</a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="TAXpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="TAXf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="TAXf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="TAXf3"></td>
+        </tr>
+        <tr class="table-success">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">NET PROFIT</a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="NPpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="NPf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="NPf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="NPf3"></td>
+        </tr>
+        <tr class="">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">RECEIVABLES</a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="RECpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="RECf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="RECf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="RECf3"></td>
+        </tr>
+        <tr class="">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">INVENTORY</a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="INVpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="INVf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="INVf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="INVf3"></td>
+        </tr>
+        <tr class="">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">PAYABLES</a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="PAYpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="PAYf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="PAYf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="PAYf3"></td>
+        </tr>
+        <tr class="table-success">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">WORKING CAPITAL</a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="WCpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="WCf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="WCf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="WCf3"></td>
+        </tr>
+        <tr class="table-success">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">CHANGE IN WORKING CAPITAL</a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="CIWCpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="CIWCf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="CIWCf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="CIWCf3"></td>
+        </tr>
+        <tr class="table-active">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">CAPITAL EXPENDITURES</a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="CEpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="CEf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="CEf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="CEf3"></td>
+        </tr>
+        <tr class="table-active">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">DEBT AT THE END OF THE YEAR</a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="DEYpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="DEYf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="DEYf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="DEYf3"></td>
+        </tr>
+        <tr class="table-success">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">CHANGE IN OUTSTANDING DEBT</a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="CIODpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="CIODf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="CIODf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="CIODf3"></td>
+        </tr>
+        <tr class="table-success">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">FREE CASH FLOW TO EQUITY</a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="FCFEpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="FCFEf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="FCFEf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="FCFEf3"></td>
+        </tr>
+        <tr class="table-active">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">FUNDRAISING PLAN<br><div class="subtext">GBP PER YEAR</div></a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="FPpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="FPf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="FPf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="FPf3"></td>
+        </tr>
+        <tr class="table-success mb-4">
+          <th scope="row">
+            <a href="">
+              <i class="fas fa-info"></i>
+            </a>
+          </th>
+          <td id="rowTitle"><a href="">FREE CASH FLOW</a></td>
+          <td id="pastYear"><input type="text" class="form-control" aria-label="FCFpy"></td>
+          <td id="forecast1"><input type="text" class="form-control" aria-label="FCFf1"></td>
+          <td id="forecast2"><input type="text" class="form-control" aria-label="FCFf2"></td>
+          <td id="forecast3"><input type="text" class="form-control" aria-label="FCFf3"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

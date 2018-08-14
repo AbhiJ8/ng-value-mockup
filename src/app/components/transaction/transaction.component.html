@@ -1,0 +1,136 @@
+<div class="row mb-2 mt-3 pl-4 container">
+  <div class="col-sm-1 mt-1">
+    <i class="fas fa-chart-pie fa-3x"></i>
+  </div>
+  <div class="col">
+    <div class="row">
+      <h4>Current Funding Round</h4>
+    </div>
+    <div class="row">
+      <p>Are you raising equity funding at the moment? You can specify amount and target equity percentage here</p>
+    </div>
+  </div>
+</div>
+
+<div class="pt-3 pb-5 pr-4 mr-4 pl-4" id="main">
+  <div class="row">
+    <div class="col">
+      <p>Amount of capital needed</p>
+    </div>
+    <div class="col">
+      <p>Percentage of equity offered</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" aria-label="" placeholder="0">
+    </div>
+    <div class="col">
+      <div class="input-group">
+        <input type="text" class="form-control" aria-label="" placeholder="0">
+        <div class="input-group-append">
+          <span class="input-group-text">%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row mb-2 mt-3 pl-4 container">
+  <div class="col-sm-1 mt-1">
+    <i class="fas fa-chart-pie fa-3x"></i>
+  </div>
+  <div class="col">
+    <div class="row">
+      <h4>Past Funding Round</h4>
+    </div>
+    <div class="row">
+      <p>Keep track of your previous valuations and their development over time</p>
+    </div>
+  </div>
+</div>
+<div class="pt-4 pb-4 pr-4 pl-4 mr-4" id="main">
+  <button type="button" class="btn btn-outline-success">ADD</button>
+</div>
+
+<div class="row mb-2 mt-3 pl-4 container">
+  <div class="col-sm-1 mt-1">
+    <i class="fas fa-chart-pie fa-3x"></i>
+  </div>
+  <div class="col">
+    <div class="row">
+      <h4>Use of Funds</h4>
+    </div>
+    <div class="row">
+      <p>Describe here how the funds are used</p>
+    </div>
+  </div>
+</div>
+<div class="pt-5 pb-5 pr-4 mr-4 pl-4" id="main">
+  <div class="row pb-5">
+    <div class="col">
+      <p>Product development</p>
+      <div class="input-group">
+        <input type="text" class="form-control" aria-label="" placeholder="0">
+        <div class="input-group-append">
+          <span class="input-group-text">%</span>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <p>Marketing expenses</p>
+      <div class="input-group">
+        <input type="text" class="form-control" aria-label="" placeholder="0">
+        <div class="input-group-append">
+          <span class="input-group-text">%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row pb-5">
+    <div class="col">
+      <p>Working Capital</p>
+      <div class="input-group">
+        <input type="text" class="form-control" aria-label="" placeholder="0">
+        <div class="input-group-append">
+          <span class="input-group-text">%</span>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <p>Operating Expenses (fixed and variable)</p>
+      <div class="input-group">
+        <input type="text" class="form-control" aria-label="" placeholder="0">
+        <div class="input-group-append">
+          <span class="input-group-text">%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row pb-5">
+    <div class="col">
+      <p>Salaries</p>
+      <div class="input-group">
+        <input type="text" class="form-control" aria-label="" placeholder="0">
+        <div class="input-group-append">
+          <span class="input-group-text">%</span>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <p>Others</p>
+      <div class="input-group">
+        <input type="text" class="form-control" aria-label="" placeholder="0">
+        <div class="input-group-append">
+          <span class="input-group-text">%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="prog">
+    <p class="alloc">£ 0 Allocated</p>
+    <hr>
+    <p class="req">£ 0 Required</p>
+  </div>
+  <canvas id="fundPie" width="1100" height="320"></canvas>
+</div>

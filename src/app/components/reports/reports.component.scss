@@ -1,0 +1,81 @@
+$egreen: #a7d90c;
+
+p {
+    font-size: 14px;
+    color: grey;
+}
+
+#reportContent > p {
+    letter-spacing: 1px;
+}
+
+h4{
+    color: #2D2E2E;
+}
+
+i {
+    color: $egreen;
+}
+
+#reportContent {
+    display: block;
+    text-align: center;
+}
+
+
+#euro {
+    color: grey;
+    margin-right: 10px;
+} 
+
+#num {
+    color: $egreen;
+}
+
+h5 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    border-radius: 50px;
+
+}
+#small {
+    font-size: 10px !important;
+    height: 35px;
+    width: 150px;
+} 
+#big {
+    height: 55px;
+    width: 200px;
+    border-color: $egreen;
+    background-color: #8ab509;
+    font-size: 16px;
+} 
+
+#history {
+    background-color: white;
+    #historyHead {
+        border-bottom: 1px dotted #2D2E2E;
+    }
+    .fa-book {
+        color: #2D2E2E;
+    }
+}
+#download {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #2D2E2E 1px;
+    border-radius: 360px;
+    width: 75px;
+    height: 75px;
+    background-color: #afafaf;
+    i {
+        color: white;
+        display: block;
+        text-align: center;
+        margin-top: 25%;
+    }
+}
+

@@ -1,0 +1,50 @@
+$egreen: #a7d90c;
+
+p {
+    font-size: 14px;
+    color: grey;
+}
+
+h4{
+    color: #2D2E2E;
+}
+
+i {
+    color: $egreen;
+}
+
+ input {
+     margin-bottom: 40px;
+ }
+
+ #logo {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     border: solid #2D2E2E 2px;
+     border-radius: 360px;
+     width: 200px;
+     height: 200px;
+     background-color: #F2F2F2;
+ }
+
+ .btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    width: 100px;
+    #btnAdd {
+        border-color: $egreen;
+        color: $egreen;
+    }
+    #remove {
+        margin-top: 50px;
+    }
+}
+
+#buttons {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}

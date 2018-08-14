@@ -1,0 +1,39 @@
+$egreen: #a7d90c;
+
+nav {
+    background: #2D2E2E;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            .fa-2x {
+                color: #EEF1F0 !important;
+            }
+            i {
+                color: #afafaf;
+                padding: 20px;
+                display: block;
+                text-align: center;
+            }
+
+            .activated {
+                background-color: $egreen;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+    
+}

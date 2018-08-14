@@ -1,0 +1,37 @@
+nav {
+    padding: 0px !important;
+    margin-left: 65px;
+    height: 60px;
+    background: #2D2E2E;
+    a {
+    color: #afafaf !important;
+    font-size: 11px;
+    margin: 15px;
+    }
+}
+
+$egreen: #a7d90c;
+
+p {
+    font-size: 14px;
+    color: grey;
+}
+
+h4{
+    color: #2D2E2E;
+}
+
+i {
+    color: $egreen;
+}
+
+#checks {
+    .form-check {
+        margin: 10px;
+        display: block;
+        margin-left: 200px;
+    }
+    label {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,116 @@
+$egreen: #a7d90c;
+
+p {
+    font-size: 14px;
+    color: grey;
+}
+
+#main {
+    p {
+        font-size: 12px;
+        color: #2D2E2E;
+        line-height: 20px;
+    }
+}
+
+h4{
+    color: #2D2E2E;
+}
+
+i {
+    color: $egreen;
+}
+
+.btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border-radius: 50px;
+    border-color: $egreen;
+    color: $egreen;
+    font-size: 14px;
+}
+
+.info {
+    border-bottom: 3px dotted #2D2E2E;
+}
+
+#gbp {
+    color: grey;
+    margin-right: 10px;
+} 
+
+#num {
+    color: black;
+}
+
+#HEADS {
+    text-align: center;
+    p {
+    font-size: 10px ;
+    }
+}
+
+#BARS {
+    .col {
+        .bar {
+            background-color: $egreen;
+            height: 460px;
+            width: 72px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            #bar1 {
+                height: 20%;
+                background: #2D2E2E;
+            }
+            #bar2 {
+                height: 27.4910059976670028%;
+                background: #2D2E2E;
+            }
+            #bar3 {
+                height: 80.13920218910525%;
+                background: #2D2E2E;
+            }
+            #bar4 {
+                height: 82.084831004205727%;
+                background: #2D2E2E;
+            }
+            #bar5 {
+                height: 46.0260820758861%;
+                background: #2D2E2E;
+            }
+        }
+        .badge {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 15px;
+            height: 45px;
+            width: 120px;
+        }
+    }
+}
+#DIALS {
+    .col {
+        span {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            height: 100px;
+            width: 100px;
+            border: 2px solid #2D2E2E;
+            border-radius: 360px;
+            p {
+                display: block;
+                text-align: center;
+                margin-top: 35px;
+                font-size: 24px;
+                color: $egreen;
+            }
+        }
+    }
+}

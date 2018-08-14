@@ -1,0 +1,53 @@
+$egreen: #a7d90c;
+
+p {
+    font-size: 14px;
+    color: grey;
+}
+
+h4{
+    color: #2D2E2E;
+}
+
+i {
+    color: $egreen;
+}
+
+.col > p {
+    font-size: 11px;
+    color: grey;
+}
+
+.btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    border-color: $egreen;
+    color: $egreen;
+    width: 100px;
+}
+
+.prog {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    .alloc {
+        display: block;
+        margin-left: 310px;
+    }
+    .req {
+        display: block;
+        text-align: right;
+        margin-right: 310px;
+    }
+}
+
+hr { 
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 500px;
+    border-style: inset;
+    border-width: 5px;
+    border-color:$egreen;
+}
